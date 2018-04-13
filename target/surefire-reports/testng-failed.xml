@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="BROWSER" value="firefox"/>
+  <test name="chromeTest(failed)" parallel="tests">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="sprint_1.FabHotel_Search">
+        <methods>
+          <include name="finalHotel_Book"/>
+          <include name="searchHotel"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="hotelList"/>
+          <include name="review_Details"/>
+          <include name="BrowserSetup"/>
+          <include name="BrowserSetup"/>
+        </methods>
+      </class> <!-- sprint_1.FabHotel_Search -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test name="firefoxTest(failed)" parallel="tests">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="sprint_1.FabHotel_Search">
+        <methods>
+          <include name="finalHotel_Book"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="hotelList"/>
+          <include name="review_Details"/>
+          <include name="BrowserSetup"/>
+          <include name="BrowserSetup"/>
+        </methods>
+      </class> <!-- sprint_1.FabHotel_Search -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44" started-at="2018-04-02T11:13:31Z" finished-at="2018-04-02T11:13:31Z">
+    <groups>
+    </groups>
+    <test name="fabHotel" duration-ms="44" started-at="2018-04-02T11:13:31Z" finished-at="2018-04-02T11:13:31Z">
+      <class name="sprint_1.FabHotel_Search">
+        <test-method status="FAIL" signature="BrowserSetup(java.lang.String)[pri:0, instance:sprint_1.FabHotel_Search@20e2cbe0]" name="BrowserSetup" is-config="true" duration-ms="0" started-at="2018-04-02T16:43:31Z" finished-at="2018-04-02T16:43:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by @Configuration on method BrowserSetup but has not been marked @Optional or defined
+in C:\Users\rajesh.kumar41\eclipse-workspace\fabHotel.mvn\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by @Configuration on method BrowserSetup but has not been marked @Optional or defined
+in C:\Users\rajesh.kumar41\eclipse-workspace\fabHotel.mvn\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method status="SKIP" signature="searchHotel()[pri:0, instance:sprint_1.FabHotel_Search@20e2cbe0]" name="searchHotel" duration-ms="7" started-at="2018-04-02T16:43:31Z" finished-at="2018-04-02T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method status="SKIP" signature="hotelList()[pri:0, instance:sprint_1.FabHotel_Search@20e2cbe0]" name="hotelList" duration-ms="1" started-at="2018-04-02T16:43:31Z" finished-at="2018-04-02T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelList -->
+        <test-method status="SKIP" signature="finalHotel_Book()[pri:0, instance:sprint_1.FabHotel_Search@20e2cbe0]" name="finalHotel_Book" duration-ms="1" started-at="2018-04-02T16:43:31Z" finished-at="2018-04-02T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalHotel_Book -->
+        <test-method status="SKIP" signature="review_Details()[pri:0, instance:sprint_1.FabHotel_Search@20e2cbe0]" name="review_Details" duration-ms="1" started-at="2018-04-02T16:43:31Z" finished-at="2018-04-02T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review_Details -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:sprint_1.FabHotel_Search@20e2cbe0]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-02T16:43:31Z" finished-at="2018-04-02T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- sprint_1.FabHotel_Search -->
+    </test> <!-- fabHotel -->
+  </suite> <!-- Suite -->
+</testng-results>

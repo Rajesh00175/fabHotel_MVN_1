@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="fabHotel(failed)">
+    <classes>
+      <class name="sprint_1.FabHotel_Search">
+        <methods>
+          <include name="finalHotel_Book"/>
+          <include name="searchHotel"/>
+          <include name="hotelList"/>
+          <include name="review_Details"/>
+        </methods>
+      </class> <!-- sprint_1.FabHotel_Search -->
+    </classes>
+  </test> <!-- fabHotel(failed) -->
+</suite> <!-- Failed suite [Suite] -->

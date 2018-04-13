@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+	<test name="chromeTest">
+  		<parameter name="BROWSER" value="chrome"/> 	 
+    	<classes>
+      		<class name="sprint_1.FabHotel_Search"/>
+    	</classes>
+  	</test> <!-- Test -->
+  	<test name="firefoxTest">
+  		<parameter name="BROWSER" value="firefox"/>    	
+   		<classes>
+      		<class name="sprint_1.FabHotel_Search"/>
+    	</classes>
+  	</test> <!-- Test -->
+</suite> <!-- Suite -->
